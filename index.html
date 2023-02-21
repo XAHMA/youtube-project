@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>YouTube.com</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <div class="hamburger-hover">
+                    <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                </div>
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Введите запрос">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Введите запрос</div>
+                </button>
+                <!-- Put position absolute inside position relative -->
+                <div class="voice-search-button-container">
+                    <button class="voice-search-button">
+                        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">Голосовой поиск</div>
+                    </button>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="buttons">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="icons/upload.svg">
+                        <div class="tooltip">Создать</div>
+                    </div>
+                    <div class="notification-icon-container">
+                        <img class="notification-icon" src="icons/notifications.svg">
+                        <div class="tooltip">Уведомления</div>
+                    </div>
+                    <div class="user-picture-container">
+                        <img class="current-user-picture" src="channel pictures/my-channel.jpg">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Главная</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Подписки</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Библиотека</div>
+            </div>
+        </nav>
+
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=msZ5b2usBNc" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+                    </a>
+                    <div class="video-time">1:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@MAPPACHANNEL" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-1.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=msZ5b2usBNc" target="_blank">
+                                『チェンソーマン』第７話ノンクレジットエンディング / CHAINSAW MAN #7 Ending│ano 「ちゅ、多様性。」
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@MAPPACHANNEL" target="_blank">
+                                MAPPA CHANNEL
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            3,5 млн просмотров &#183; 2 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=N_LBdUrn24A&t=19925s" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.jpg">
+                    </a>
+                    <div class="video-time">11:59:56</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@BestFavouriteGame" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-2.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=N_LBdUrn24A&t=19925s" target="_blank">
+                                God of War Ragnarok ИГРОФИЛЬМ на русском ● PS5 4K прохождение без комментариев ● BFGames
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@BestFavouriteGame" target="_blank">
+                                BFGames
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            2,2 млн просмотров &#183; 4 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=mvhqe_eLLh0" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+                    </a>
+                    <div class="video-time">48:32</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@lo-fisenpai" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-3.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=mvhqe_eLLh0" target="_blank">
+                                Bleach Battle Music / OST Mix - V2
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@lo-fisenpai" target="_blank">
+                                LO-FI SENPAI
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            732 тыс. просмотров &#183; 5 лет назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=DXT9dF-WK-I" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.jpg">
+                    </a>
+                    <div class="video-time">4:08:18</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@abaointokyo" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-4.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=DXT9dF-WK-I" target="_blank">
+                                4-HOUR STUDY WITH ME🌦️ / calm piano / A Rainy Day in Shinjuku, Tokyo / with countdown+alarm
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@abaointokyo" target="_blank">
+                                阿鲍Abao
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            2,6 млн просмотров &#183; 6 месяцев назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=hP5u_G9X40w" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+                    </a>
+                    <div class="video-time">10:50</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@MasterofVoice" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-5.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=hP5u_G9X40w" target="_blank">
+                                Voice Teacher Reacts to LiSA - Akeboshi (明け星)
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@MasterofVoice" target="_blank">
+                                Master of Voice
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            44 тыс. просмотров &#183; 3 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=d9MyW72ELq0" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.jpg">
+                    </a>
+                    <div class="video-time">2:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@AvatarOfficial" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-6.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=d9MyW72ELq0" target="_blank">
+                                Avatar: The Way of Water | New Trailer
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@AvatarOfficial" target="_blank">
+                                Avatar
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            41 млн просмотров &#183; 1 месяц назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=8t-GDU113ys" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+                    </a>
+                    <div class="video-time">26:14</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@MrTommo2304" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-7.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=8t-GDU113ys" target="_blank">
+                                THE FIRST GOTEI 13, REVEALED! - Meet the BLOODTHIRSTY Captains Who DESTROYED Yhwach! | Bleach
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@MrTommo2304" target="_blank">
+                                MrTommo2304
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            362 тыс. просмотров &#183; 3 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=0VodK97SdvU" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+                    </a>
+                    <div class="video-time">3:01:01</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@RusGameTactics" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-8.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=0VodK97SdvU" target="_blank">
+                                The Last of Us Part I (Remake) — Часть 4: Университет [ФИНАЛ]
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@RusGameTactics" target="_blank">
+                                RusGameTactics
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            177 тыс. просмотров &#183; Трансляция закончилась 3 месяца назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=rL5FdSd1tQ4" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-9.jpg">
+                    </a>
+                    <div class="video-time">17:57</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@MikeThurston" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-9.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=rL5FdSd1tQ4" target="_blank">
+                                The BEST Exercises For A Full Body Workout
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@MikeThurston" target="_blank">
+                                Mike Thurston
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            91 тыс. просмотров &#183; 2 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=b9uqwq5CDfQ" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-10.jpg">
+                    </a>
+                    <div class="video-time">17:57</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@AppsolutelyGeekD" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-10.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=b9uqwq5CDfQ" target="_blank">
+                                Down Bad! Chainsaw Man Episode 7 Reaction
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@AppsolutelyGeekD" target="_blank">
+                                Appsolutely Geek'D
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            6,1 тыс. просмотров &#183; 2 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=9osre3R0LvA" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-11.jpg">
+                    </a>
+                    <div class="video-time">3:00:01</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@AmbientWorlds" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-11.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=9osre3R0LvA" target="_blank">
+                                The Witcher Music & Ambience | Peaceful Night in Toussaint in 4K
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@AmbientWorlds" target="_blank">
+                                Ambient Worlds
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            1,6 млн просмотров &#183; 7 месяцев назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=O_hj9Ge-Fdk" target="_blank">
+                        <img class="thumbnail" src="thumbnails/thumbnail-12.jpg">
+                    </a>
+                    <div class="video-time">19:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-picture-container">
+                        <a href="https://www.youtube.com/@tzuyang6145" target="_blank">
+                            <img class="profile-picture" src="channel pictures/channel-12.jpg">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=O_hj9Ge-Fdk" target="_blank">
+                                고든램지님을 만났습니다..😳 고든램지 무한리필 피자? 먹방
+                            </a>
+                        </div>
+                        <div class="channel-name">
+                            <a class="channel-link" href="https://www.youtube.com/@tzuyang6145" target="_blank">
+                                tzuyang쯔양
+                            </a>
+                        </div>
+                        <div class="video-stats">
+                            4,4 млн просмотров &#183; 3 недели назад
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
